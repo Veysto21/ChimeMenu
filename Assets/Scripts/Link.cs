@@ -36,7 +36,7 @@ public class Link : MonoBehaviour
     public void OpenTikTok()
     {
 #if !UNITY_EDITOR
-		openWindow("");
+		openWindow("https://www.tiktok.com/@chimecandy");
 #endif
     }
 
